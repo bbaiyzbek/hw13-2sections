@@ -1,0 +1,270 @@
+@media(max-width:1200px) {
+    .container {
+        padding: 30px 15px;
+    }
+
+    ul {
+        gap: 30px
+    }
+
+    .firstimg {
+        width: 600px;
+    }
+
+    .red-btn {
+        padding: 15px 70px;
+        font-size: 15px;
+    }
+    .provide-section h1{
+        margin-top: 90px;
+    }
+    .intro-row{
+        margin-top:55px
+    }
+}
+
+@media(max-width:1100px) {
+    .btn-wrapper button:nth-child(2) {
+        padding: 10px 35px;
+    }
+
+    .btn-wrapper button {
+        font-size: 14px;
+    }
+
+    .firstimg {
+        width: 550px;
+    }
+
+    .section-intro h1 {
+        font-size: 35px;
+    }
+
+    .red-btn {
+        padding: 14px 65px;
+        font-size: 14px;
+    }
+    .provide-section h1{
+        margin-top: 80px;
+    }
+    .intro-row{
+        margin-top:30px
+    }
+}
+
+@media(max-width:1000px) {
+    .btn-wrapper button {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .dots-btn {
+        display: block;
+    }
+
+    .firstimg {
+        width: 500px;
+    }
+
+    .section-intro h1 {
+        font-size: 30px;
+    }
+    .users{
+        margin-top: 85px;
+    }
+    .userflex{
+        gap:29px
+    }
+    
+    .provide-section h1{
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .provide-section p{
+        font-size: 14px;
+    }
+    .power-wrap{
+        gap:10px
+    }
+    .userflex{
+        gap: 19px;
+        height: 162px;
+        padding-top: 50px;
+    }
+    .provide-section{
+        padding-top: 40px;
+    }
+    .intro-row{
+        margin-top:20px
+    }
+
+}
+@media(max-width:900px){
+    .firstimg {
+        width: 450px;
+    }
+    .power-wrap{
+        gap:5px;
+        margin-top: 14px;
+        
+    }
+    .provide-section h1{
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    
+    .powerfull-title{
+        gap:10px;
+    }
+    .provide-section{
+        padding-top: 35px;
+    }
+     .provide-section p{
+        font-size: 12px;
+    }
+    .intro-row{
+        margin-top:10px
+    }
+    .userflex h2{
+        font-size: 22px;
+    }
+    .userflex p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .userflex img{
+        width: 35px;
+    }
+    .red-btn {
+        padding: 12px 60px;
+        font-size: 12px;
+    }
+    hr{
+        height: 100px;
+    }
+}
+
+@media(max-width:800px){
+.section-intro h1{
+    font-size: 22px;
+}
+.section-intro p{
+    font-size: 14px;
+}
+.firstimg {
+    width: 410px;
+}
+.intro-row{
+    margin-top:0
+}
+.provide-section h1{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.userflex{
+    height: 155px;
+    padding-top: 50px;
+}
+}
+@media(max-width:700px){
+    .section-intro h1{
+        font-size: 20px;
+    }
+    .section-intro p{
+        font-size: 12px;
+    }
+    .provide-section h1{
+        font-size: 22px;
+        margin-top: 45px;
+    }
+    .userflex{
+        height: 146px;
+        padding: 46px;
+}
+.firstimg{
+    width: 400px;
+}
+hr{
+    height: 90px;
+}
+}
+@media(max-width:650px){
+    .col-6{
+        width: 100%;
+    }
+    .red-btn {
+        padding: 10px 50px;
+        font-size: 12px;
+    }
+    .section-intro p{
+        font-size: 12px;
+        margin-bottom: 20px;
+        line-height: normal;
+    }
+    .userflex{
+        gap: 14px;
+        padding: 40px 0;
+    }
+    .users{
+        align-items: flex-start;
+        gap: 70px;
+        justify-content: center;
+        margin-top: 30px;
+        height: 120px;
+    }
+    hr{
+        display: none;
+    }
+    .providebox{
+        margin-left: 12px;
+        margin-top: -20px;
+    }
+}
+@media(max-width:550px){
+    .users{
+        gap: 50px;
+    }
+    .userflex h2{
+        font-size: 20px;
+    }
+    .userflex p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .red-btn {
+        padding: 10px 40px;
+    }
+}
+@media(max-width:450px){
+    .userflex h2{
+        font-size: 16px;
+    }
+    .userflex p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .userflex img{
+        width: 25px;
+    }
+    .users{
+        gap: 35px;
+        margin-top: -10px;
+        height: 110px;
+    }
+    .firstimg{
+        width: 322px;
+    }
+   
+    .container{
+        padding: 17px 15px;
+    }
+    .red-btn {
+        padding: 8px 30px;
+    }
+    .provide-section{
+        margin-top: 5px;
+    }
+}
