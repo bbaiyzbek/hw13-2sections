@@ -15,11 +15,13 @@
         padding: 15px 70px;
         font-size: 15px;
     }
-    .provide-section h1{
+
+    .provide-section h1 {
         margin-top: 90px;
     }
-    .intro-row{
-        margin-top:55px
+
+    .intro-row {
+        margin-top: 55px
     }
 }
 
@@ -44,11 +46,26 @@
         padding: 14px 65px;
         font-size: 14px;
     }
-    .provide-section h1{
+
+    .provide-section h1 {
         margin-top: 80px;
     }
-    .intro-row{
-        margin-top:30px
+
+    .intro-row {
+        margin-top: 30px
+    }
+
+    .itsbox {
+        padding: 40px 70px;
+    }
+    .footer{
+        padding-top: 75px;
+    }
+    .innerbox{
+        padding: 20px 20px 0 20px;
+    }
+    .card-description{
+        padding: 15px;
     }
 }
 
@@ -72,199 +89,307 @@
     .section-intro h1 {
         font-size: 30px;
     }
-    .users{
+
+    .users {
         margin-top: 85px;
     }
-    .userflex{
-        gap:29px
+
+    .userflex {
+        gap: 29px
     }
-    
-    .provide-section h1{
+
+    .provide-section h1 {
         margin-top: 70px;
         font-size: 30px;
     }
-    .provide-section p{
+
+    .provide-section p {
         font-size: 14px;
     }
-    .power-wrap{
-        gap:10px
+
+    .power-wrap {
+        gap: 10px
     }
-    .userflex{
+
+    .userflex {
         gap: 19px;
         height: 162px;
         padding-top: 50px;
     }
-    .provide-section{
+
+    .provide-section {
         padding-top: 40px;
     }
-    .intro-row{
-        margin-top:20px
+
+    .intro-row {
+        margin-top: 20px
+    }
+
+    .itsbox {
+        padding: 30px 50px;
     }
 
 }
-@media(max-width:900px){
+
+@media(max-width:900px) {
     .firstimg {
         width: 450px;
     }
-    .power-wrap{
-        gap:5px;
+
+    .power-wrap {
+        gap: 5px;
         margin-top: 14px;
-        
+
     }
-    .provide-section h1{
+
+    .provide-section h1 {
         font-size: 28px;
         margin-bottom: 12px;
     }
-    
-    .powerfull-title{
-        gap:10px;
+
+    .powerfull-title {
+        gap: 10px;
     }
-    .provide-section{
+
+    .provide-section {
         padding-top: 35px;
     }
-     .provide-section p{
+
+    .provide-section p {
         font-size: 12px;
     }
-    .intro-row{
-        margin-top:10px
+
+    .intro-row {
+        margin-top: 10px
     }
-    .userflex h2{
+
+    .userflex h2 {
         font-size: 22px;
     }
-    .userflex p{
+
+    .userflex p {
         font-size: 14px;
         margin-top: 10px;
     }
-    .userflex img{
+
+    .userflex img {
         width: 35px;
     }
+
     .red-btn {
         padding: 12px 60px;
         font-size: 12px;
     }
-    hr{
+
+    hr {
         height: 100px;
+    }
+
+    .itsbox {
+        padding: 20px 50px;
     }
 }
 
-@media(max-width:800px){
-.section-intro h1{
-    font-size: 22px;
+@media(max-width:780px){
+    .itsbox{
+        padding: 40px 20px;
+    }
+    .sub-intro{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .footer{
+        padding-top: 65px;
+    }
+    .section-intro h1 {
+        font-size: 22px;
+    }
+
+    .section-intro p {
+        font-size: 14px;
+    }
+
+    .firstimg {
+        width: 410px;
+    }
+
+    .intro-row {
+        margin-top: 0
+    }
+
+    .provide-section h1 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .userflex {
+        height: 155px;
+        padding-top: 50px;
+    }
+    .col-4{
+        width: 50%;
+    }
+  
+    .subscribe{
+        padding: 30px;
+    }
+    .roberto{
+        display: none;
+    }
 }
-.section-intro p{
-    font-size: 14px;
-}
-.firstimg {
-    width: 410px;
-}
-.intro-row{
-    margin-top:0
-}
-.provide-section h1{
-    font-size: 25px;
-    margin-top: 50px;
-}
-.userflex{
-    height: 155px;
-    padding-top: 50px;
-}
-}
-@media(max-width:700px){
-    .section-intro h1{
+
+@media(max-width:700px) {
+    .section-intro h1 {
         font-size: 20px;
     }
-    .section-intro p{
+
+    .section-intro p {
         font-size: 12px;
     }
-    .provide-section h1{
+
+    .provide-section h1 {
         font-size: 22px;
         margin-top: 45px;
     }
-    .userflex{
+
+    .userflex {
         height: 146px;
         padding: 46px;
+    }
+
+    .firstimg {
+        width: 400px;
+    }
+
+    hr {
+        height: 90px;
+    }
+  .col-4{
+    width: 50%;
+  }
 }
-.firstimg{
-    width: 400px;
-}
-hr{
-    height: 90px;
-}
-}
-@media(max-width:650px){
-    .col-6{
+
+@media(max-width:650px) {
+    .col-6 {
         width: 100%;
     }
+
     .red-btn {
         padding: 10px 50px;
         font-size: 12px;
     }
-    .section-intro p{
+
+    .section-intro p {
         font-size: 12px;
         margin-bottom: 20px;
         line-height: normal;
     }
-    .userflex{
+
+    .userflex {
         gap: 14px;
         padding: 40px 0;
     }
-    .users{
+
+    .users {
         align-items: flex-start;
         gap: 70px;
         justify-content: center;
         margin-top: 30px;
         height: 120px;
     }
-    hr{
+
+    hr {
         display: none;
     }
-    .providebox{
+
+    .providebox {
         margin-left: 12px;
         margin-top: -20px;
     }
 }
-@media(max-width:550px){
-    .users{
+
+@media(max-width:550px) {
+    .users {
         gap: 50px;
     }
-    .userflex h2{
+
+    .userflex h2 {
         font-size: 20px;
     }
-    .userflex p{
+
+    .userflex p {
         font-size: 12px;
         margin-top: 10px;
     }
+
     .red-btn {
         padding: 10px 40px;
     }
 }
-@media(max-width:450px){
-    .userflex h2{
+
+@media(max-width:450px) {
+    .userflex h2 {
         font-size: 16px;
     }
-    .userflex p{
+
+    .userflex p {
         font-size: 10px;
         margin-top: 10px;
     }
-    .userflex img{
+
+    .userflex img {
         width: 25px;
     }
-    .users{
+
+    .users {
         gap: 35px;
         margin-top: -10px;
         height: 110px;
     }
-    .firstimg{
+
+    .firstimg {
         width: 322px;
     }
-   
-    .container{
+
+    .container {
         padding: 17px 15px;
     }
+
     .red-btn {
         padding: 8px 30px;
     }
-    .provide-section{
+
+    .provide-section {
         margin-top: 5px;
     }
 }
+
+@media(max-width:430px){
+    .itsbox{
+    padding: 30px 40px;;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .footer{
+        padding-top: 95px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .subscribe{
+        padding: 28px 50px;
+    }
+    li{
+        display: none;
+    }
+    .yessica{
+        display: none;
+    }
+    .intro-text{
+        text-align: center;
+    }
+
+ }
+

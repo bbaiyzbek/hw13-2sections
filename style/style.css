@@ -49,10 +49,6 @@ button {
     cursor: pointer;
 }
 
-p {
-    color: #4F5665;
-}
-
 .btn-wrapper button:not(:last-child) {
     color: #0B132A;
     margin-left: 40px;
@@ -74,10 +70,30 @@ p {
     font-weight: 500px;
 
 }
-.dots-btn{
+
+.btn-wrapper button:nth-child(2):hover {
+    background-color: #F53838;
+    color: #fff;
+    box-shadow: 0px 4px 26px 2px rgba(215, 45, 45, 0.4);
+}
+
+.dots-btn {
     border: none;
     background-color: unset;
     display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.section-intro {
+    padding-top: 50px;
 }
 
 .section-intro h1 {
@@ -99,13 +115,18 @@ span {
 }
 
 .red-btn {
-    background-color: #F53838;
+    background: unset;
     padding: 17px 75px;
-    color: #fff;
+    color: #F53838;
     font-size: 16px;
     font-weight: 700;
-    border: none;
+    border: 2px solid #F53838;
     border-radius: 10px;
+}
+
+.red-btn:hover {
+    background-color: #F53838;
+    color: #fff;
     box-shadow: 0px 4px 26px 2px rgba(215, 45, 45, 0.4);
 }
 
@@ -140,25 +161,24 @@ hr {
     padding-top: 95px;
 }
 
-.provide-section h1 {
+h1 {
     font-size: 35px;
     font-weight: bold;
     color: #0B132A;
-    margin-top: 107px;
     margin-bottom: 20px;
 }
 
-.provide-section p {
+p {
     font-size: 16px;
     font-weight: 400;
+    color: #4F5665;
 }
-
 .power-wrap {
     display: flex;
     flex-direction: column;
     gap: 15px;
     margin-top: 20px;
-
+    margin-right: 15px;
 }
 
 .powerfull-title {
@@ -170,7 +190,256 @@ hr {
 .powerfull-title p {
     font-size: 14px;
 }
-.providebox{
-    margin-left: 120px;
+
+.providebox {
+    padding-top: 20px;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 20px;
+}
+.choose-title {
+    text-align: center;
+    margin: 50px 0 30px;
 }
 
+.itsbox {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    box-shadow: -1px 2px 23px 0px rgba(34, 60, 80, 0.02);
+}
+
+.itsbox:hover {
+    border: 2px solid #F53838;
+    box-shadow: -1px 9px 31px 0px rgba(245, 56, 56, 0.13);
+}
+
+.itsbox h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.itsbox h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0B132A;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.itsbox button {
+    padding: 13px 63px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    color: #F53838;
+    background: unset;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.itsbox button:hover {
+    background-color: #F53838;
+    color: #fff;
+    box-shadow: -1px 9px 31px 0px rgba(245, 56, 56, 0.13);
+}
+
+.price-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: bottom;
+    gap: 20px;
+
+}
+
+.planwrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.magicbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricespan {
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.map {
+    margin-top: 155px;
+}
+
+.cards-row {
+    /* margin-right: -150px; *//*meshaet pri adaptivke:))=  */
+    margin-bottom: 80px;
+}
+
+.cards .box {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.cards .box:hover {
+    border: 2px solid #F53838;
+    box-shadow: -1px 9px 31px 0px rgba(245, 56, 56, 0.13);
+}
+
+.innerbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px
+}
+
+.headiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.star {
+    display: flex;
+    gap: 10px;
+}
+
+.name h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.name p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.star p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0B132A;
+}
+
+.card-discription p {
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 30px 30px 30px;
+
+}
+
+.mini-btn {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.krug {
+    border-radius: 50px;
+    background-color: #DDE0E4;
+    border: 6px solid #DDE0E4;
+}
+
+.ellipse {
+    padding: 0 10px;
+    border-radius: 50px;
+    background-color: #F53838;
+    border: 6px solid #F53838;
+
+}
+
+.buttonsdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.circle-btn button {
+    padding: 15px;
+    background-color: unset;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 20px;
+
+}
+
+.circle-btn button:hover {
+    background-color: #F53838;
+    box-shadow: -1px 9px 31px 0px rgba(245, 56, 56, 0.13);
+
+}
+
+.circle-btn button:hover path {
+    fill: #fff;
+}
+
+.buttonsdiv h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+.subscribe {
+    padding: 58px 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 22px -1px rgba(34, 60, 80, 0.12);
+    margin-bottom: -115px;
+    position: relative;
+}
+
+.sub-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background-color: #F8F8F8;
+
+}
+
+.foot-desc {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-img {
+    margin-left: -20px;
+    margin-bottom: 30px;
+}
+
+.inner-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-ul h6 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
